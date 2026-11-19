@@ -1,0 +1,6 @@
+PROGRAM this_identifier_is_too_long
+VAR
+INTEGER value;
+BEGIN
+value := 12.5 @ 3;
+END

@@ -1,0 +1,10 @@
+PROGRAM test
+VAR
+INTEGER a, b;
+FLOAT moy;
+BEGIN
+a := 10; b := -3;
+moy := (a + b) / 2.5;
+// commentaire sur une ligne
+IF (a >= b) THEN WRITE(moy); ENDIF
+END
